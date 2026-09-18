@@ -1,0 +1,66 @@
+# =====================================================================
+#  Abel Haile — Portfolio
+#  Static site: HTML + CSS + vanilla JS. No build step, no dependencies.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+#  Operating system clutter
+# ---------------------------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Linux
+.directory
+
+# ---------------------------------------------------------------------
+#  Editors & IDEs
+# ---------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.swp
+*.swo
+*.orig
+*.bak
+*~
+
+# ---------------------------------------------------------------------
+#  Logs, caches & local tooling
+# ---------------------------------------------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.tmp/
+node_modules/
+.env
+.env.*
+
+# ---------------------------------------------------------------------
+#  Not part of the published site
+# ---------------------------------------------------------------------
+# Previous design, kept on disk as a reference — the live site is index.html.
+_old-design-backup/
+
+# Unused binaries, kept locally so the repo stays lean (~4.5 MB saved).
+# The site uses profile.jpg and Abel-Haile-CV.pdf instead.
+# To publish one later: delete its line here, then `git add -f <file>`.
+assets/profile.png
+assets/Abel-Haile-Resume.pdf
+assets/67ec6deb-e935-4341-b544-a97adb4f3cfa.png
+assets/aa44d47b-e062-4a7d-b5b1-5b5cf1a23051.png

@@ -1,0 +1,19 @@
+# Normalize to LF in the repository so the history stays clean across
+# Windows / macOS / Linux checkouts (working copies keep native endings).
+* text=auto eol=lf
+
+# Never try to diff or convert these
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.svg  text
+*.pdf  binary
+*.woff binary
+*.woff2 binary
+
+# Keep GitHub's language stats honest
+*.html linguist-detectable=true
+*.css  linguist-detectable=true
+*.js   linguist-detectable=true
